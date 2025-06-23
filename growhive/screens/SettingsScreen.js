@@ -90,7 +90,11 @@ const COLORS = {
   redDanger: '#dc2626',
 };
 
+<<<<<<< Updated upstream
 const API_BASE_URL = 'http://10.16.59.193:5000/api';
+=======
+const API_BASE_URL = 'http://198.168.10.149:5000/api';
+>>>>>>> Stashed changes
 
 const SettingsScreen = () => {
   const navigation = useNavigation();
@@ -176,9 +180,9 @@ const SettingsScreen = () => {
               await SecureStore.deleteItemAsync('userName');
               await SecureStore.deleteItemAsync('userEmail');
               await SecureStore.deleteItemAsync('userProfile');
-              
+
               // Changed navigation from 'Login' to 'Signup'
-              navigation.replace('Signup'); 
+              navigation.replace('Signup');
 
             } catch (error) {
               console.error('Failed to delete account:', error.response ? error.response.data : error.message);

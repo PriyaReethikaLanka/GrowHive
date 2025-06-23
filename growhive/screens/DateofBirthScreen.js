@@ -23,7 +23,11 @@ const COLORS = {
 const { width } = Dimensions.get('window');
 
 // IMPORTANT: Ensure NO SPACE AFTER http://
+<<<<<<< Updated upstream
 const API_BASE_URL = 'http://192.168.10.149:5000/api/auth'; // Ensure this IP is current
+=======
+const API_BASE_URL = 'http://198.168.10.149:5000/api/auth'; // Ensure this IP is current
+>>>>>>> Stashed changes
 
 export default function DateOfBirthScreen() {
   const [selectedDate, setSelectedDate] = useState(new Date(2003, 4, 6));

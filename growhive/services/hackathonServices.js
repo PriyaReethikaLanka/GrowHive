@@ -6,7 +6,11 @@ import * as SecureStore from 'expo-secure-store'; // ADD THIS LINE
 // Define your API base URL
 // IMPORTANT: Replace with your backend IP/URL and port
 // Ensure this points to the base of your *backend* API, not just /api/auth
+<<<<<<< Updated upstream
 const API_BASE_ROOT_URL = 'http://192.168.10.149:5000'; // <<< Changed to root URL of your backend
+=======
+const API_BASE_ROOT_URL = 'http://198.168.10.149:5000'; // <<< Changed to root URL of your backend
+>>>>>>> Stashed changes
 
 
 // Function to get the authentication token from SecureStore
@@ -23,7 +27,11 @@ const getToken = async () => {
 // Generic function to handle API requests
 const request = async (method, path, data = null, isProtected = false) => {
     // Construct the full URL.
+<<<<<<< Updated upstream
     // For hackathons, it will be http://192.168.10.149:5000/api/hackathons
+=======
+    // For hackathons, it will be http://198.168.10.149:5000/api/hackathons
+>>>>>>> Stashed changes
     const url = `${API_BASE_ROOT_URL}${path}`;
     const headers = {
         'Content-Type': 'application/json',

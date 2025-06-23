@@ -28,7 +28,11 @@ const COLORS = {
   logoGreen: '#34e3b0',
 };
 
+<<<<<<< Updated upstream
 const API_BASE_URL = 'http://10.16.59.193:5000/api';
+=======
+const API_BASE_URL = 'http://198.168.10.149:5000/api';
+>>>>>>> Stashed changes
 
 const ChangePasswordScreen = () => {
   const navigation = useNavigation();
@@ -62,8 +66,8 @@ const ChangePasswordScreen = () => {
       return;
     }
     if (newPassword.length < 6) {
-        Alert.alert('Error', 'New password must be at least 6 characters long.');
-        return;
+      Alert.alert('Error', 'New password must be at least 6 characters long.');
+      return;
     }
 
     setLoading(true);
@@ -87,12 +91,12 @@ const ChangePasswordScreen = () => {
       });
 
       Alert.alert('Success', response.data.message || 'Password changed successfully!');
-      
+
       setOldPassword('');
       setNewPassword('');
       setConfirmPassword('');
 
-      navigation.goBack(); 
+      navigation.goBack();
 
     } catch (error) {
       console.error('Failed to change password:', error.response ? error.response.data : error.message);
@@ -161,8 +165,8 @@ const ChangePasswordScreen = () => {
         autoCapitalize="none"
       />
 
-      <TouchableOpacity 
-        style={styles.button} 
+      <TouchableOpacity
+        style={styles.button}
         onPress={handleChangePassword}
         disabled={loading}
       >

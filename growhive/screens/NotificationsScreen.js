@@ -44,7 +44,7 @@ export default function HackathonsNotificationsScreen() {
 
     try {
       // Replace with your actual API endpoint
-      const response = await fetch('http://192.168.10.149/hackathon-notifications');
+      const response = await fetch('http://192.168.193.149/hackathon-notifications');
       if (!response.ok) {
         // Handle HTTP errors
         throw new Error(`HTTP error! status: ${response.status}`);

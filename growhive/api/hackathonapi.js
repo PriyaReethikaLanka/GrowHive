@@ -2,7 +2,11 @@
 
 import axios from 'axios';
 
+<<<<<<< Updated upstream
 const BASE_URL = 'http://192.168.10.149:5000/api'; // <--- Make sure it's exactly this
+=======
+const BASE_URL = 'http://198.168.10.149:5000/api'; // <--- Make sure it's exactly this
+>>>>>>> Stashed changes
 
 const hackathonApi = axios.create({
     baseURL: BASE_URL,
