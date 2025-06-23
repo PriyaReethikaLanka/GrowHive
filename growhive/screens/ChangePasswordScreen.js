@@ -30,7 +30,11 @@ const COLORS = {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 const API_BASE_URL = 'http://10.16.59.193:5000/api';
+=======
+const API_BASE_URL = 'http://198.168.10.149:5000/api';
+>>>>>>> Stashed changes
 =======
 const API_BASE_URL = 'http://198.168.10.149:5000/api';
 >>>>>>> Stashed changes
