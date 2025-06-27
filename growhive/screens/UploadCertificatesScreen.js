@@ -20,21 +20,9 @@ import { MaterialIcons, AntDesign } from '@expo/vector-icons';
 import { useFonts, Poppins_700Bold, Poppins_600SemiBold, Poppins_400Regular } from '@expo-google-fonts/poppins';
 import axios from 'axios';
 
-// IMPORTANT: Ensure NO SPACE AFTER http:// AND use your CURRENT LOCAL IP
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 const API_BASE_URL = 'http://192.168.10.149:5000'; // Base URL for the backend (no /api/auth here)
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000'; // Base URL for the backend (no /api/auth here)
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000'; // Base URL for the backend (no /api/auth here)
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000'; // Base URL for the backend (no /api/auth here)
->>>>>>> Stashed changes
-// The upload endpoint will be API_BASE_URL/api/upload/certificates
+
 
 export default function UploadCertificatesScreen() {
   const navigation = useNavigation();

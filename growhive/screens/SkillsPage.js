@@ -20,20 +20,9 @@ import axios from 'axios';
 // --- IMPORTANT: Ensure CORRECT PATH for COLORS ---
 import { COLORS } from '../screens/constants'; // Adjust this path if 'constants.js' is elsewhere
 
-// IMPORTANT: Ensure NO SPACE AFTER http:// AND use your CURRENT LOCAL IP
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 const API_BASE_URL = 'http://192.168.10.149:5000/api/auth'; // <--- VERIFY THIS IP AND NO SPACE
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api/auth'; // <--- VERIFY THIS IP AND NO SPACE
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api/auth'; // <--- VERIFY THIS IP AND NO SPACE
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api/auth'; // <--- VERIFY THIS IP AND NO SPACE
->>>>>>> Stashed changes
+
 
 const PROFICIENCY_OPTIONS = [
   'Beginner',

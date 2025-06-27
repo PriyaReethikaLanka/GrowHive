@@ -32,19 +32,7 @@ const COLORS = {
   logoGreen: '#34e3b0',
 };
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 const API_BASE_URL = 'http://192.168.10.149:5000/api';
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api';
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api';
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api';
->>>>>>> Stashed changes
 
 const FloatingLabelInput = ({
   icon,

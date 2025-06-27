@@ -28,20 +28,7 @@ import {
 import axios from 'axios';
 
 const { width, height } = Dimensions.get('window');
-
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-const API_BASE_URL = 'http://192.168.10.149:5000/api/auth';
-=======
 const API_BASE_URL = 'http://198.168.10.149:5000/api/auth';
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api/auth';
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api/auth';
->>>>>>> Stashed changes
 
 export default function SignupScreen({ navigation }) {
   const [passwordVisible, setPasswordVisible] = useState(false);

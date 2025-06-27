@@ -39,19 +39,7 @@ const DOMAIN_OPTIONS = [
   'UI/UX Design',
   'Cloud Computing',
 ];
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-const API_BASE_URL = 'http://10.16.59.193:5000/api/auth'; // IMPORTANT: Replace YOUR_LOCAL_IP
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api/auth'; // IMPORTANT: Replace YOUR_LOCAL_IP
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api/auth'; // IMPORTANT: Replace YOUR_LOCAL_IP
->>>>>>> Stashed changes
-=======
-const API_BASE_URL = 'http://198.168.10.149:5000/api/auth'; // IMPORTANT: Replace YOUR_LOCAL_IP
->>>>>>> Stashed changes
+const API_BASE_URL = 'http://198.168.10.149:5000/api/auth'; // IMPORTANT: Replace YOUR_LOCAL_I
 
 export default function ContinuedSignupScreen() {
   const navigation = useNavigation();
